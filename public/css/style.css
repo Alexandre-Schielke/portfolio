@@ -1,0 +1,45 @@
+/*####  Borda com rotação infinita  ####*/
+.span-img-about {
+    animation: aboutSpinner 8s linear infinite;
+}
+
+@keyframes aboutSpinner {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/*####  Animação scroll  ####*/
+.animate {
+    opacity: 0;
+    filter: blur(3px);
+    transition: 1s;
+}
+
+.animate.from-left {
+    transform: translateX(-100%);
+}
+
+.animate.show {
+    transform: translate(0);
+    filter: blur(0);
+    opacity: 1;
+}
+
+/*####  Animação dos cards de habilidades  ####*/
+.cards-skill :nth-child(2) {
+    transition-delay: 400ms;
+}
+
+.cards-skill :nth-child(3) {
+    transition-delay: 700ms;
+}
+
+/*####  Botão para voltar ao topo  ####*/
+.progress-value {
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+}
+
+
+
