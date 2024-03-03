@@ -17,7 +17,7 @@
 <body>
 <header class="bg-neutral-900">
     <div class="container">
-        <h1 class="text-white text-2xl py-6">CodeZeus</h1>
+        <h1 class="text-white text-2xl py-6  text-center">CodeZeus</h1>
     </div>
 </header>
 
