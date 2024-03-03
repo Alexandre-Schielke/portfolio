@@ -54,12 +54,13 @@
             Olá, me chamo <strong class="text-yellow-600">Alexandre Schielke</strong>.
         </h2>
 
-        <p class="text-justify text-neutral-700 sm:text-center sm:pt-5 lg:pt-10 lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel
-            facilisis leo. Nunc ac nisi in
-            felis hendrerit porttitor. Vivamus commodo quam nunc, in pulvinar justo tristique vitae. Donec nec feugiat
-            ipsum. Pellentesque velit justo, volutpat a mattis feugiat, accumsan ut augue. Donec scelerisque rhoncus
-            augue, a vestibulum ligula varius non. Suspendisse ultrices molestie semper. Ut vel faucibus lacus, sed
-            congue urna. Ut tempus finibus fringilla. Sed sagittis tempus consectetur.
+        <p class="text-justify text-neutral-700 sm:text-center sm:pt-5 lg:pt-10 lg:text-lg">
+            Desde 2014, venho explorando tanto o front-end quanto o back-end. Minha trajetória inclui experiências em empresas de pequeno, médio e grande porte. Hoje, me considero um desenvolvedor pleno, focado não apenas na qualidade técnica, mas também na comunicação eficaz e no trabalho em equipe.
+
+            Optei por seguir como freelancer e assim conheci o home office. Essa escolha não só me desafiou profissionalmente, mas também me ensinou lições valiosas sobre responsabilidade, ética e a tomada de decisões em situações críticas. Acredito firmemente no poder do autogerenciamento como uma ferramenta de amadurecimento profissional.
+
+            Adoro compartilhar ideias e experiências, porque acredito que é assim que todos nós crescemos. Se você está em busca de alguém que equilibre habilidades técnicas com uma abordagem comunicativa, estou aqui para ajudar a criar algo incrível juntos.
+
         </p>
     </div>
 </section>
