@@ -69,7 +69,7 @@
          class="bg-neutral-800 py-10 md:py-16 xl:py-24">
     <div class="container">
         <h2 class="text-white text-center text-2xl sm:text-2xl lg:text-4xl lg:pb-10">
-            Meus <strong class="text-yellow-600">Conhecimentos</strong>.
+            Minhas <strong class="text-yellow-600">Habilidades</strong>.
         </h2>
 
         <div class="cards-skill grid gap-y-10 pt-16 sm:gap-y-12 lg:grid-cols-3">
@@ -80,11 +80,12 @@
 
                 <p class="py-6 text-yellow-600 font-semibold sm:text-lg sm:pt-8 lg:text-xl lg:pt-16">Front-end</p>
                 <ul class="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-10 lg:gap-x-8">
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>CSS</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>HTML</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Bootstrap</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Tailwind</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Vue.js</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>npm  / yarn</li>
                 </ul>
             </div>
 
@@ -95,11 +96,12 @@
 
                 <p class="py-6 text-yellow-600 font-semibold sm:text-lg sm:pt-8 lg:text-xl lg:pt-16">Back-end</p>
                 <ul class="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-10 lg:gap-x-8">
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>PHP</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Laravel</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Mysql</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>API rest-full</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Docker</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Git</li>
                 </ul>
             </div>
 
@@ -108,11 +110,12 @@
                     <img src="{{ asset('image/points.png') }}" class="w-full p-2 sm:p-3 lg:p-5" alt="others">
                 </div>
 
-                <p class="py-6 text-yellow-600 font-semibold sm:text-lg sm:pt-8 lg:text-xl lg:pt-16">Outros</p>
+                <p class="py-6 text-yellow-600 font-semibold sm:text-lg sm:pt-8 lg:text-xl lg:pt-16">auxiliares</p>
                 <ul class="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-10 lg:gap-x-8">
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
-                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Lorem Ipsum</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Jira</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Slack</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Discord</li>
+                    <li class="text-white pb-1.5 text-sm lg:text-sm"><i class="fa-solid fa-check text-blue-500 mr-2"></i>Meet</li>
                 </ul>
             </div>
         </div>
