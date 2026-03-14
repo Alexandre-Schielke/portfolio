@@ -41,5 +41,18 @@
     width: calc(100% - 15px);
 }
 
+/*####  Acessibilidade: respeita preferência de movimento reduzido  ####*/
+@media (prefers-reduced-motion: reduce) {
+    .animate,
+    .span-img,
+    .span-img-about {
+        transition: none;
+        animation: none;
+        opacity: 1;
+        filter: none;
+        transform: none;
+    }
+}
+
 
 

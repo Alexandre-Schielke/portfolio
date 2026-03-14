@@ -41,9 +41,17 @@
     }
     </script>
 
+    {{-- Theme --}}
+    <meta name="theme-color" content="#171717">
+
+    {{-- Preconnect para recursos externos --}}
+    <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin>
+    <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin>
+
     {{-- Assets --}}
     @vite('resources/css/app.css')
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="preload" href="{{ asset('css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ asset('css/style.css') }}"></noscript>
     <script src="https://kit.fontawesome.com/8005c041ac.js" crossorigin="anonymous" defer></script>
     <script src="{{ asset('js/text-animate.js') }}" defer></script>
     <script src="{{ asset('js/animate-scroll.js') }}" defer></script>
@@ -75,7 +83,8 @@
                     <img class="profile-img w-[90%] rounded-full border-4 border-yellow-600"
                          src="{{ asset('image/fotopng.png') }}"
                          alt="Foto de Alexandre Schielke, Desenvolvedor Full-Stack"
-                         width="384" height="384">
+                         width="384" height="384"
+                         fetchpriority="high" loading="eager">
                     <span class="span-img absolute top-[45%] left-[45%] w-full h-full rounded-full border-t-4 border-t-neutral-800 border-b-4 border-b-neutral-800 border-l-4 border-l-yellow-600 border-r-4 border-r-yellow-600 transform -translate-y-1/2 -translate-x-1/2 rotate-0"></span>
                 </div>
             </div>
