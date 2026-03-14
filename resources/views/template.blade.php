@@ -73,7 +73,7 @@
         <div class="container">
             <div class="flex justify-between items-center">
                 <div class="w-full h-60 py-10 sm:w-3/5 md:w-[55%] lg:h-80">
-                    <h1 id="intro-heading" class="animate text-white text-3xl sm:text-3xl lg:text-6xl">
+                    <h1 id="intro-heading" class="text-white text-3xl sm:text-3xl lg:text-6xl">
                         <strong class="text-yellow-600">Desenvolvedor</strong>
                         Full-Stack para o seu projeto.
                     </h1>
@@ -117,7 +117,7 @@
         </div>
     </section>
 
-    <section id="skill" aria-labelledby="skill-heading" class="bg-neutral-800 py-10 md:py-16 xl:py-24">
+    <section id="skill" aria-labelledby="skill-heading" class="bg-neutral-800 py-10 md:py-16 xl:py-24" style="content-visibility:auto">
         <div class="container">
             <h2 id="skill-heading" class="text-white text-center text-2xl sm:text-2xl lg:text-4xl lg:pb-10">
                 Minhas <strong class="text-yellow-600">Habilidades</strong>.
@@ -170,7 +170,7 @@
         </div>
     </section>
 
-    <section id="projects" aria-labelledby="projects-heading" class="bg-white py-10 md:py-16 xl:py-24">
+    <section id="projects" aria-labelledby="projects-heading" class="bg-white py-10 md:py-16 xl:py-24" style="content-visibility:auto">
         <div class="container">
             <h2 id="projects-heading" class="text-neutral-800 text-center text-2xl sm:text-2xl lg:text-4xl">
                 Meus <strong class="text-yellow-600">Projetos</strong>.
@@ -236,7 +236,7 @@
         </div>
     </section>
 
-    <section id="journey" aria-labelledby="journey-heading" class="bg-neutral-800 py-10 md:py-16 xl:py-24">
+    <section id="journey" aria-labelledby="journey-heading" class="bg-neutral-800 py-10 md:py-16 xl:py-24" style="content-visibility:auto">
         <div class="container">
             <h2 id="journey-heading" class="text-white text-center text-2xl sm:text-2xl lg:text-4xl">
                 Minha <strong class="text-yellow-600">Jornada</strong>.
@@ -298,7 +298,7 @@
         </div>
     </section>
 
-    <section id="contact" aria-labelledby="contact-heading" class="bg-white py-10 md:py-16 xl:py-24">
+    <section id="contact" aria-labelledby="contact-heading" class="bg-white py-10 md:py-16 xl:py-24" style="content-visibility:auto">
         <div class="container">
             <h2 id="contact-heading" class="text-neutral-800 text-center text-2xl sm:text-2xl lg:text-4xl">
                 <strong class="text-yellow-600">Contatos</strong>.

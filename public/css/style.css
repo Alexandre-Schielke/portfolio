@@ -9,21 +9,21 @@
     }
 }
 
-/*####  Animação scroll  ####*/
+/*####  Animação scroll (apenas propriedades composited: opacity + transform)  ####*/
 .animate {
     opacity: 0;
-    filter: blur(3px);
-    transition: 1s;
+    transform: translateY(16px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+    will-change: opacity, transform;
 }
 
 .animate.from-left {
-    transform: translateX(-100%);
+    transform: translateX(-60px);
 }
 
 .animate.show {
-    transform: translate(0);
-    filter: blur(0);
     opacity: 1;
+    transform: translate(0, 0);
 }
 
 /*####  Animação dos cards de habilidades  ####*/
@@ -41,6 +41,29 @@
     width: calc(100% - 15px);
 }
 
+/*####  FontAwesome: override font-display para evitar FOIT  ####*/
+@font-face {
+    font-family: "Font Awesome 6 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: optional;
+    src: url("https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-solid-900.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Font Awesome 6 Free";
+    font-style: normal;
+    font-weight: 400;
+    font-display: optional;
+    src: url("https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-regular-400.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Font Awesome 6 Brands";
+    font-style: normal;
+    font-weight: 400;
+    font-display: optional;
+    src: url("https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-brands-400.woff2") format("woff2");
+}
+
 /*####  Acessibilidade: respeita preferência de movimento reduzido  ####*/
 @media (prefers-reduced-motion: reduce) {
     .animate,
@@ -49,7 +72,6 @@
         transition: none;
         animation: none;
         opacity: 1;
-        filter: none;
         transform: none;
     }
 }
