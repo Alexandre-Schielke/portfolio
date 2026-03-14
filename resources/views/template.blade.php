@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     {{-- SEO --}}
     <title>Alexandre Schielke | Desenvolvedor Full-Stack</title>
@@ -253,17 +252,17 @@
                     <ol class="col-span-12 space-y-12 relative before:bg-yellow-600 sm:px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3" aria-label="Histórico de estudos">
                         <li class="animate flex flex-col sm:relative border-4 border-white/10 rounded-2xl p-5 sm:before:absolute sm:before:top-1 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:-left-10 sm:before:z-[1] before:bg-yellow-600">
                             <h4 class="text-lg font-semibold tracking-wide sm:text-xl">Donec porta enim vel</h4>
-                            <time datetime="2020-12" class="text-xs text-blue-500 tracking-wide uppercase">Dez 2020</time>
+                            <time datetime="2020-12" class="text-xs text-blue-400 tracking-wide uppercase">Dez 2020</time>
                             <p class="mt-3 text-neutral-300">Pellentesque feugiat ante at nisl efficitur, in mollis orci scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
                         </li>
                         <li class="animate flex flex-col sm:relative border-4 border-white/10 rounded-2xl p-5 sm:before:absolute sm:before:top-1 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:-left-10 sm:before:z-[1] before:bg-yellow-600">
                             <h4 class="text-lg font-semibold tracking-wide sm:text-xl">Aliquam sit amet nunc ut</h4>
-                            <time datetime="2019-07" class="text-xs text-blue-500 tracking-wide uppercase">Jul 2019</time>
+                            <time datetime="2019-07" class="text-xs text-blue-400 tracking-wide uppercase">Jul 2019</time>
                             <p class="mt-3 text-neutral-300">Morbi vulputate aliquam libero non dictum. Aliquam sit amet nunc ut diam aliquet tincidunt nec nec dui. Donec mollis turpis eget egestas sodales.</p>
                         </li>
                         <li class="animate flex flex-col sm:relative border-4 border-white/10 rounded-2xl p-5 sm:before:absolute sm:before:top-1 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:-left-10 sm:before:z-[1] before:bg-yellow-600">
                             <h4 class="text-lg font-semibold tracking-wide sm:text-xl">Pellentesque habitant morbi</h4>
-                            <time datetime="2016-01" class="text-xs text-blue-500 tracking-wide uppercase">Jan 2016</time>
+                            <time datetime="2016-01" class="text-xs text-blue-400 tracking-wide uppercase">Jan 2016</time>
                             <p class="mt-3 text-neutral-300">Suspendisse tincidunt, arcu nec faucibus efficitur, justo velit consectetur nisl, sit amet condimentum lacus orci nec purus. Mauris quis quam suscipit, vehicula felis id, vehicula enim.</p>
                         </li>
                     </ol>
@@ -279,17 +278,17 @@
                     <ol class="col-span-12 space-y-12 relative before:bg-yellow-600 sm:px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3" aria-label="Histórico de experiências">
                         <li class="animate flex flex-col sm:relative border-4 border-white/10 rounded-2xl p-5 sm:before:absolute sm:before:top-1 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:-left-10 sm:before:z-[1] before:bg-yellow-600">
                             <h4 class="text-lg font-semibold tracking-wide sm:text-xl">Donec porta enim vel</h4>
-                            <time datetime="2020-12" class="text-xs text-blue-500 tracking-wide uppercase">Dez 2020</time>
+                            <time datetime="2020-12" class="text-xs text-blue-400 tracking-wide uppercase">Dez 2020</time>
                             <p class="mt-3 text-neutral-300">Pellentesque feugiat ante at nisl efficitur, in mollis orci scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
                         </li>
                         <li class="animate flex flex-col sm:relative border-4 border-white/10 rounded-2xl p-5 sm:before:absolute sm:before:top-1 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:-left-10 sm:before:z-[1] before:bg-yellow-600">
                             <h4 class="text-lg font-semibold tracking-wide sm:text-xl">Aliquam sit amet nunc ut</h4>
-                            <time datetime="2019-07" class="text-xs text-blue-500 tracking-wide uppercase">Jul 2019</time>
+                            <time datetime="2019-07" class="text-xs text-blue-400 tracking-wide uppercase">Jul 2019</time>
                             <p class="mt-3 text-neutral-300">Morbi vulputate aliquam libero non dictum. Aliquam sit amet nunc ut diam aliquet tincidunt nec nec dui. Donec mollis turpis eget egestas sodales.</p>
                         </li>
                         <li class="animate flex flex-col sm:relative border-4 border-white/10 rounded-2xl p-5 sm:before:absolute sm:before:top-1 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:-left-10 sm:before:z-[1] before:bg-yellow-600">
                             <h4 class="text-lg font-semibold tracking-wide sm:text-xl">Pellentesque habitant morbi</h4>
-                            <time datetime="2016-01" class="text-xs text-blue-500 tracking-wide uppercase">Jan 2016</time>
+                            <time datetime="2016-01" class="text-xs text-blue-400 tracking-wide uppercase">Jan 2016</time>
                             <p class="mt-3 text-neutral-300">Suspendisse tincidunt, arcu nec faucibus efficitur, justo velit consectetur nisl, sit amet condimentum lacus orci nec purus. Mauris quis quam suscipit, vehicula felis id, vehicula enim.</p>
                         </li>
                     </ol>
