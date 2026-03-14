@@ -62,8 +62,8 @@
 <header class="bg-neutral-900 sticky top-0 z-50 shadow-md" role="banner">
     <div class="container">
         <nav class="flex items-center justify-between py-4" aria-label="Navegação principal">
-            <a href="/" class="text-white text-xl font-bold tracking-wide" aria-label="CodeZeus - Página inicial">
-                Code<span class="text-yellow-600">Zeus</span>
+            <a href="/" class="text-white text-xl font-bold tracking-wide" aria-label="schielke.dev - Página inicial">
+                schielke<span class="text-yellow-600">.dev</span>
             </a>
             <ul class="hidden md:flex items-center gap-6 text-sm text-neutral-300" role="list">
                 <li><a href="#about" class="hover:text-yellow-600 transition-colors">Sobre</a></li>
@@ -82,7 +82,7 @@
 
 <main id="conteudo-principal">
 
-    <section id="introduction" aria-labelledby="intro-heading" class="bg-neutral-800 py-16 md:py-24">
+    <section id="introduction" aria-labelledby="intro-heading" class="relative py-16 md:py-24 bg-neutral-900" style="background-image: url('{{ asset('image/imgbg.png') }}'); background-size: cover; background-position: center;">
         <div class="container">
             <div class="flex justify-between items-center gap-8">
                 <div class="w-full sm:w-3/5 md:w-[55%]">
@@ -414,10 +414,10 @@
 
 <footer class="py-6 px-4 text-center bg-neutral-900 border-t border-neutral-800 text-neutral-500" role="contentinfo">
     <p class="text-sm">&copy; {{ date('Y') }} Alexandre Schielke &mdash;
-        <a href="https://wa.me/5591998284095" target="_blank" rel="noopener noreferrer"
+        <a href="https://wa.me/5591981485996" target="_blank" rel="noopener noreferrer"
            class="text-yellow-600 hover:text-yellow-500 transition-colors font-medium"
            aria-label="Contato via WhatsApp">
-            Code<i class="fas fa-bolt mx-0.5" aria-hidden="true"></i>Zeus
+            schielke<span class="text-yellow-500">.dev</span>
         </a>
     </p>
 </footer>
